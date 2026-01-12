@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Markdown Parser</title>
+        <style>
+            code {
+                background-color: #f4f4f4;
+                padding: 2px 4px;
+                border-radius: 3px;
+                font-family: monospace;
+            }
+            pre {
+                background-color: #f0f0f0;
+                padding: 10px;
+                border-radius: 5px;
+                overflow-x: auto;
+            }
+            pre code {
+                background: none;
+                padding: 0;
+            }
+        </style>
+  <body>
+    <div id="container"></div>
+      <script src="./MarkdownParser.js"></script>
+      <div id="markdownContainer"></div>
+      <button id="button" onclick="runStream()">STREAM</button>
+  </body>
+</html>
